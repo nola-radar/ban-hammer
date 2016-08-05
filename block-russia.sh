@@ -11,7 +11,7 @@ cd /etc
 wget -P . http://www.ipdeny.com/ipblocks/data/countries/ru.zone
 
 # Add each IP address from the downloaded list into the ipset 'china'
-for i in $(cat /etc/cn.zone ); do ipset -A russia $i; done
+for i in $(cat /etc/ru.zone ); do ipset -A russia $i; done
 
 # Restore iptables
 /sbin/iptables-restore < /etc/iptables.firewall.rules
