@@ -2,7 +2,7 @@
 # this needs to live in /etc/network/if-pre-up.d/
 
 /sbin/iptables-restore < /etc/iptables.firewall.rules
-sbadmins-MacBook-Pro:ban-hammer michael.raeder$ cat block-cn-ru.sh 
+$ cat block-cn-ru.sh 
 #!/bin/sh
 
 # Create the ipset list
