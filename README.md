@@ -5,3 +5,4 @@ in order to attain the right mindset
 
 You can pull up other country zones you wish to block here.  https://www.ipdeny.com/ipblocks/
 
+Run on cron daily.
